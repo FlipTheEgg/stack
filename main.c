@@ -27,7 +27,7 @@ int main() {
     }
     printf("Size: %d\nCapacity: %d\n", myStack->size, myStack->capacity);
 
-    //Testing top for empty stack. Returns NULL, but is expressed as the value 0.
+    //Testing top for empty stack. Returns NULL (expressed 0) and prints an error.
     printf("Top: %d\n", top(myStack));
 
     return 0;
