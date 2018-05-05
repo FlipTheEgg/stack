@@ -5,6 +5,8 @@ int main() {
 
     stack_T * myStack = newStack();
 
+    printf("popped: %d\n", pop(myStack));
+
     push(myStack, 123);
     push(myStack, 99);
     push(myStack, 4444);
